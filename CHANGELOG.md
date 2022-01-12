@@ -6,3 +6,4 @@
 * prerelease
 * remove prerelease specification
 * demo
+* patch
