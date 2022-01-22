@@ -18,7 +18,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: 12.x
+          node-version: '.nvmrc'
+          cache: npm
       - uses: bahmutov/npm-install@v1
       - run: npm test
       - name: semantic-release
