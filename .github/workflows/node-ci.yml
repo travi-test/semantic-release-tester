@@ -20,7 +20,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: npm
-      - uses: bahmutov/npm-install@v1
+      - run: npm clean-install
       - run: npm test
       - name: semantic-release
         run: npx semantic-release --debug
