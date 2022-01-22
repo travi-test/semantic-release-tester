@@ -7,3 +7,4 @@
 * remove prerelease specification
 * demo
 * patch
+* add a feature
