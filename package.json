@@ -8,7 +8,7 @@
   "bugs": "https://github.com/travi/semantic-release-tester/issues",
   "homepage": "https://github.com/travi/semantic-release-tester#readme",
   "scripts": {
-    "lint:md": "globstar --node -- markdownlint **/*.md",
+    "lint:md": "remark . --frail",
     "test": "run-s lint:*",
     "prepare": "husky install"
   },
@@ -26,7 +26,9 @@
     "cz-conventional-changelog": "3.3.0",
     "globstar": "1.0.0",
     "husky": "7.0.4",
+    "npm-run-all": "4.1.5",
     "remark-cli": "10.0.1",
-    "npm-run-all": "4.1.5"
+    "remark-preset-lint-travi": "2.0.9",
+    "remark-toc": "8.0.1"
   }
 }
