@@ -21,7 +21,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@travi/any": "2.1.6",
+    "@travi/any": "2.1.7",
     "commitlint-config-travi": "1.4.24",
     "cz-conventional-changelog": "3.3.0",
     "globstar": "1.0.0",
