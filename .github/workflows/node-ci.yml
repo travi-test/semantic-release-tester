@@ -23,7 +23,7 @@ jobs:
       - run: npm clean-install
       - run: npm test
       - name: semantic-release
-        run: npx semantic-release@19.0.5 --debug
+        run: npx semantic-release@21.0.2 --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
