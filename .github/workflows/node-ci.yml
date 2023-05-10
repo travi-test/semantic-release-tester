@@ -10,9 +10,16 @@ name: Node.js CI
   pull_request:
     branches:
       - master
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
       - name: Setup node
