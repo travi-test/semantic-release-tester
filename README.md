@@ -5,7 +5,7 @@ a dummy npm package for testing various release scenarios
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/travi-test/semantic-release-tester/badge)](https://api.securityscorecards.dev/projects/github.com/travi-test/semantic-release-tester)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/travi-test/semantic-release-tester/badge)](https://securityscorecards.dev/viewer/?uri=github.com/travi-test/semantic-release-tester)
 
 <!--status-badges end -->
 
