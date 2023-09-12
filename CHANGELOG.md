@@ -8,4 +8,3 @@
 * demo
 * patch
 * add a feature
-* this will be reverted
