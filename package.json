@@ -4,7 +4,7 @@
   "version": "0.0.0-semantically-released",
   "license": "MIT",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
-  "repository": "travi/semantic-release-tester",
+  "repository": "travi-test/semantic-release-tester",
   "bugs": "https://github.com/travi/semantic-release-tester/issues",
   "homepage": "https://github.com/travi/semantic-release-tester#readme",
   "scripts": {
