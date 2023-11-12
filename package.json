@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@travi/any": "3.0.2",
-    "commitlint-config-travi": "1.4.41",
+    "commitlint-config-travi": "1.4.42",
     "cz-conventional-changelog": "3.3.0",
     "globstar": "1.0.0",
     "husky": "8.0.3",
