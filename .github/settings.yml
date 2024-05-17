@@ -3,4 +3,6 @@ environments:
     deployment_branch_policy:
       custom_branches:
         - master
-
+        - alpha
+        - beta
+        - next
