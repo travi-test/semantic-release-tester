@@ -1,0 +1,5 @@
+environments:
+  - name: npm
+    deployment_branch_policy:
+      custom_branches:
+        - master
